@@ -13,7 +13,7 @@ int main(void)
 	float decimal;
 
 	printf("Size of a char: %zu byte(s)\n", sizeof(word));
-	printf("Size of a int: %zu byte(s)\n", sizeof(number));
+	printf("Size of an int: %zu byte(s)\n", sizeof(number));
 	printf("Size of a long int: %zu byte(s)\n", sizeof(intl));
 	printf("Size of a long long int: %zu byte(s)\n", sizeof(intll));
 	printf("Size of a float: %zu byte(s)\n", sizeof(decimal));
