@@ -18,7 +18,7 @@ void print_array(int *a, int n)
 			printf("%d, ", a[p]);
 		else
 		{
-			printf("%d, ", a[p]);
+			printf("%d, ", a[n - 1]);
 		}
 			p++;
 	}
