@@ -1,21 +1,21 @@
 #include "main.h"
 
 /**
-  * _strncat - concatenates two strings
+  * strncpy - concatenates two strings
   * @dest: first string
   * @src: second string
   * @n: number of bytes from src
   * Return: a pointer resulting to string dest
   */
 
-char *strncat(char *dest, char *src, int n)
+char *_strncpy(char *dest, char *src, int n)
 {
 	int i = 0;
-	srclen = 0;
+	int srclen = 0;
 
 	while (src[i++])
 	{
-		srclen++
+		srclen++;
 	}
 	for (i = 0; src[i] && i < n; i++)
 	{
