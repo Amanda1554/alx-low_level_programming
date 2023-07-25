@@ -6,16 +6,14 @@
   * Return: returns s
   */
 
-char *rot13(chsr *s)
+char *rot13(char *s)
 {
 	char *p;
 
-	p = rot13(s);
 	printf("%s", p);
 	printf("------------------------------------\n");
 	printf("%s", s);
 	printf("------------------------------------\n");
-	p = rot13(s);
 	printf("%s", s);
 	return (0);
 }
