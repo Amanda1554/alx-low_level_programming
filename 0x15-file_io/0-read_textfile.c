@@ -26,7 +26,7 @@ ssize_t read_textfile(const char *filename, size_t letters)
 		return (0);
 
 	read_byte = read(folder, buffer, letters);
-	
+
 	written = write(STDOUT_FILENO, buffer, read_byte);
 	free(buffer);
 	close(folder);
