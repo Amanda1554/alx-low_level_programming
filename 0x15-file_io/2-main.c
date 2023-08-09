@@ -4,7 +4,8 @@
 
 /**
  * main - check the code
- *
+ * @ac: string to be used
+ * @av: average
  * Return: Always 0.
  */
 int main(int ac, char **av)
@@ -16,7 +17,7 @@ int main(int ac, char **av)
 		dprintf(2, "Usage: %s filename text\n", av[0]);
 		exit(1);
 	}
-    res = append_text_to_file(av[1], av[2]);
-    printf("-> %i)\n", res);
-    return (0);
+	res = append_text_to_file(av[1], av[2]);
+	printf("-> %i)\n", res);
+	return (0);
 }
